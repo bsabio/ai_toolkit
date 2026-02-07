@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "research-toolkit"
+version = "0.1.0"
+description = "CLI Research Toolkit – search, store, summarize, query with citations"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.14",
+    "httpx>=0.27",
+    "python-dotenv>=1.0",
+    "beautifulsoup4>=4.12",
+    "markdownify>=0.13",
+    "rich>=13.7",
+]
+
+[project.scripts]
+tool = "research_toolkit.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

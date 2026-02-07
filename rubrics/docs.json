@@ -1,0 +1,32 @@
+{
+  "name": "docs",
+  "description": "Documentation and report quality review",
+  "pass_threshold": 60,
+  "criteria": [
+    {
+      "name": "Clarity",
+      "weight": 25,
+      "description": "Is the writing clear, concise, and free of jargon? Can the target audience understand it?"
+    },
+    {
+      "name": "Completeness",
+      "weight": 25,
+      "description": "Does the document cover all necessary topics? Are there obvious gaps?"
+    },
+    {
+      "name": "Structure",
+      "weight": 20,
+      "description": "Is the document well-organized with logical sections, headings, and flow?"
+    },
+    {
+      "name": "Correctness",
+      "weight": 15,
+      "description": "Is the content factually accurate? Are code samples correct? No broken links?"
+    },
+    {
+      "name": "Formatting",
+      "weight": 15,
+      "description": "Is the document properly formatted? Consistent heading levels, lists, code blocks?"
+    }
+  ]
+}

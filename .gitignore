@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Research data (local library)
+research/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs & caches
+*.log
+.cache/
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,37 @@
+{
+  "name": "ui",
+  "description": "UI/UX screenshot and mockup quality review",
+  "pass_threshold": 65,
+  "criteria": [
+    {
+      "name": "Visual Hierarchy",
+      "weight": 20,
+      "description": "Is there a clear visual hierarchy? Are headings, buttons, and primary actions prominent?"
+    },
+    {
+      "name": "Consistency",
+      "weight": 20,
+      "description": "Are colors, fonts, spacing, and component styles consistent throughout?"
+    },
+    {
+      "name": "Readability",
+      "weight": 15,
+      "description": "Is text legible? Sufficient contrast? Appropriate font sizes?"
+    },
+    {
+      "name": "Layout & Spacing",
+      "weight": 15,
+      "description": "Is the layout well-structured with appropriate whitespace and alignment?"
+    },
+    {
+      "name": "Accessibility",
+      "weight": 15,
+      "description": "Does the design consider color contrast, touch targets, alt text, and screen reader compatibility?"
+    },
+    {
+      "name": "Responsiveness",
+      "weight": 15,
+      "description": "Does the design appear to adapt well to different screen sizes or does it show responsive intent?"
+    }
+  ]
+}
